@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>regServlet</servlet-name>
+  	<display-name>regServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.regServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<display-name>loginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>editServlet</servlet-name>
+  	<display-name>editServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.editServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>deleteServlet</servlet-name>
+  	<display-name>deleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.deleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>signoutServlet</servlet-name>
+  	<display-name>signoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.signoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>adoptServlet</servlet-name>
+  	<display-name>adoptServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.adoptServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>regServlet</servlet-name>
+  	<url-pattern>/regServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>editServlet</servlet-name>
+  	<url-pattern>/editServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>deleteServlet</servlet-name>
+  	<url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>signoutServlet</servlet-name>
+  	<url-pattern>/signoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>adoptServlet</servlet-name>
+  	<url-pattern>/adoptServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
